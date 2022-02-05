@@ -1,0 +1,65 @@
+
+
+.form-line{
+color: rgb(2, 8, 38) !important;
+font-family: "Lucida Grande", sans-serif;
+font-size: 14px;
+list-style: none;
+list-style-position: outside;
+clear: both;
+display: block;
+margin: 6px 0;
+width: 100%;
+box-sizing: border-box;
+margin-top: 12px;
+margin-bottom: 12px;
+padding: 12px 36px;}
+
+.form-sub-label{
+    font-family: "Lucida Grande", sans-serif;
+    list-style: none;
+    list-style-position: outside;
+    display: block;
+    margin-bottom: 3px;
+    word-wrap: break-word;
+    font-size: 0.786em;
+    margin-top: 3px;
+    color: #051256;
+    min-height: 13px;
+}
+.form-sub-label-container{    color: rgb(2, 8, 38) !important;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 14px;
+    list-style: none;
+    list-style-position: outside;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;}
+
+    .grid-row {
+        margin-bottom: 1em
+      }
+      .grid-row {
+        display:flex;
+      /*   flex: 1 0 auto; */
+      /*   height: auto; */
+      }
+
+      .flex-item:before {
+        content: '';
+        padding-top:26%;
+      }
+      .flex-item {
+        display:flex;
+      /*   flex-basis:25%; */
+        width:100px;
+        border-bottom:1px solid #ccc;
+        justify-content: center;
+        align-items:center;
+      /*   text-align:left; */
+        font-size: 1em;
+        font-weight:normal;
+        color:#999;
+      }
+
+      
